@@ -1,0 +1,14 @@
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.itemNavbar:hover {
+  font-weight: bold;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+

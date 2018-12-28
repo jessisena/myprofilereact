@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+/*
+pallete
+http://paletton.com/#uid=53b0u0ketN-3+Zz9wUFiMEtmDvq
+https://codepen.io/nathandana/pen/qdFgm
+*/
+
+:root {
+  --primary-color: #77D9C3;
+  --primary-color-light: #A7EDDD;
+  --primary-color-dark: #4FBFA6;
+  --secondary-color: #A0EF83;
+  --secondary-color-light: #C2F8AE;
+  --secondary-color-dark: #83E55F;
+  --primary-white: #DCFBF4;
+}
+
+.myHeader{
+	background: linear-gradient(var(--primary-color), var(--secondary-color)) !important;
+  color: white; /*var(--primary-white);*/
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 576px) {
+  .myHeader {
+      padding: 3rem 2rem;
+  }
+}
+
+.title{
+  font-size: 4.5rem;
+  font-weight: 300;
+  line-height: 1;
+}
+
+.subtitle{
+  font-size: 1.25rem;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.content {
+  padding-top: 100px;
+  z-index:  -100;
+}
+
+
+.footer{
+  /*background-color: var(--primary-color) !important;*/
+  background: linear-gradient(var(--secondary-color), var(--primary-color)) !important;
+  color: white; /*var(--primary-white);*/
+}

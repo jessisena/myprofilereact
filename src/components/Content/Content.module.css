@@ -1,0 +1,28 @@
+.content {
+  /* padding: 1rem; */
+}
+
+.contentTxt {
+  padding: 15px;
+  text-align: justify;
+}
+
+.pictureProfile {
+  max-width: 100%;
+  height: auto;
+  border-radius: .25rem!important;  
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+
+.sectionTitle {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+  margin-top: 0;
+  padding: 0.5rem;
+}
