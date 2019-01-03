@@ -43,6 +43,7 @@ export default class Content extends React.PureComponent {
     return(
     
       <Container className={styles.section} fluid>
+        <section id="mywork"></section>
         <p className={styles.sectionTitle}>EXAMPLES OF MY WORK</p>
 
         <SectionItem 
@@ -92,7 +93,6 @@ export default class Content extends React.PureComponent {
           text={CONSTANTS.TEXT.onsoc.text} 
           img={CONSTANTS.TEXT.onsoc.img}>
         </SectionItem>             
-
       </Container>
 
     );
@@ -102,6 +102,7 @@ export default class Content extends React.PureComponent {
 
     return(
       <Container className={styles.section} fluid>
+        <section id="myprojects"></section>
         <p className={styles.sectionTitle}>PERSONAL PROJECTS</p>
         
       </Container>    
@@ -112,7 +113,8 @@ export default class Content extends React.PureComponent {
 
     return(
       <Container className={styles.section} fluid>
-        <Link to="#myskills"><p className={styles.sectionTitle}>MY SKILLS</p></Link>
+        <section id="myskills"></section> 
+        <p className={styles.sectionTitle}>MY SKILLS</p>
         <Row align="center">
           <Col className={styles.contentTxt}>
             {CONSTANTS.TEXT.skills.text}
@@ -127,7 +129,7 @@ export default class Content extends React.PureComponent {
             <h4>{CONSTANTS.TEXT.roadmap.title}</h4>
             {CONSTANTS.TEXT.roadmap.text}
           </Col>
-        </Row>                
+        </Row>          
       </Container>
     );
     
